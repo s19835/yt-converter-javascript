@@ -1,4 +1,4 @@
-import path, { resolve } from "path";
+import path from "path";
 import fs from 'fs';
 import ytdl from "ytdl-core";
 import ora from "ora";

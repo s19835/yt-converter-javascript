@@ -16,7 +16,7 @@ program
     .option('-n, --name <fileName>', 'Output file name', 'video')
     .action(async (videoUrl, options) => {
         const { folder: folderName, name: fileName } = options;
-        download(videoUrl, folderName, fileName);
+        await download(videoUrl, folderName, fileName);
     });
 
 program.parse();
