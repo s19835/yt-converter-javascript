@@ -27,6 +27,7 @@
   "homepage": "https://github.com/s19835/yt-converter-javascript#readme",
   "dependencies": {
     "commander": "^12.1.0",
+    "ora": "^8.0.1",
     "ytdl-core": "^4.11.5"
   }
 }

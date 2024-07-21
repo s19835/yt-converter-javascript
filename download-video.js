@@ -1,7 +1,7 @@
 import path, { resolve } from "path";
 import fs from 'fs';
 import ytdl from "ytdl-core";
-import { rejects } from "assert";
+import ora from "ora";
 
 export async function download(videoUrl, folderName, fileName) {
     const filePath = path.join(folderName, `${fileName}.mp4`);
