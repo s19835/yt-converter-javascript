@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/s19835/yt-converter-javascript#readme",
   "dependencies": {
-    "commander": "^12.1.0"
+    "commander": "^12.1.0",
+    "ytdl-core": "^4.11.5"
   }
 }
